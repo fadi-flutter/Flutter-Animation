@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
-class AnimatedContainerWidget extends StatefulWidget {
-  const AnimatedContainerWidget({Key? key}) : super(key: key);
+class AnimatedListWidget extends StatefulWidget {
+  const AnimatedListWidget({Key? key}) : super(key: key);
 
   @override
-  State<AnimatedContainerWidget> createState() =>
-      _AnimatedContainerWidgetState();
+  State<AnimatedListWidget> createState() =>
+      _AnimatedListWidgetState();
 }
 
-class _AnimatedContainerWidgetState extends State<AnimatedContainerWidget>
+class _AnimatedListWidgetState extends State<AnimatedListWidget>
     with SingleTickerProviderStateMixin {
   @override
   void dispose() {
