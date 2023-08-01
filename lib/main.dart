@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'transition_animation.dart';
+import 'text_animation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.light(),
-      home: const Page1(),
+      home: const TypewriterAnimation(),
     );
   }
 }

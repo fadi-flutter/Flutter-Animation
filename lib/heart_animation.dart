@@ -64,8 +64,3 @@ class _HeartAnimationState extends State<HeartAnimation>
     );
   }
 }
-
-enum AnimatonStatusEnum {
-  forward,
-  reverse,
-}
